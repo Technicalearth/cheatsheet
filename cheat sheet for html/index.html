@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html cheatsheet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prism.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <script src="prism.js"></script>
+</head>
+<body class="line-numbers">
+    <ol>
+        <li>HTML Boillerplate: This is the basic html boiller plate.</li>
+        <pre class="language-html"><code>
+&#60;!DOCTYPE html>
+&#60;html lang="en">
+&#60;head>
+    &#60;meta charset="UTF-8">
+    &#60;meta name="viewport" content="width=device-width, initial-scale=1.0">
+    &#60;title>Document&#60;/title>
+&#60;/head>
+&#60;body>
+    
+&#60;/body>
+&#60;/html>
+        </code></pre>
+        <li>linking stylesheet: link stylesheet</li>
+        <pre class="language-html"><code>
+&#60;link rel="stylesheet" href="style.css">
+        </code></pre>
+        <li>animating a div: animation</li>
+        <pre class="language-html"><code>
+&#60;!DOCTYPE html>
+&#60;html lang="en">
+&#60;head>
+    &#60;meta charset="UTF-8">
+    &#60;meta name="viewport" content="width=device-width, initial-scale=1.0">
+    &#60;title>Document&#60;/title>
+&#60;/head>
+&#60;style>
+            .ani{
+                heigth: 500px;
+                width: 500px;
+                background-color: red;
+                animation: ani;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes ani{
+                from{
+                    width:500px;
+                }
+                to{
+                    width: 1000px;
+                }
+            }
+&#60;/style>
+&#60;body>
+    &#60;div class="ani">
+        &#60;p>animate this!&#60;/p>
+    &#60;/div>
+&#60;/body>
+&#60;/html>
+        </code></pre>
+    </ol>
+</body>
+</html>
